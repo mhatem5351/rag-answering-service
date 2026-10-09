@@ -1,6 +1,7 @@
 """
 Run against a live server:  python test_compare.py
-Starts uvicorn automatically if nothing is listening on :8000.
+Does not start the server. Start it first in another terminal:
+    uvicorn main:app --port 8321
 """
 
 import httpx
